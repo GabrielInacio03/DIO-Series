@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sh+4653AP2svS7I/Tl6J9d9Rz/XzfSM1CCaTBlUYxNRsys/YI9VYjl+TX6KzK21UEWm4ROdLGdMS+GG5NpILdg==",
+  "success": true,
+  "projectFilePath": "C:\\pjGit\\AppCadastroMemoria\\DIO.Series\\DIO.Series.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Inacio\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
