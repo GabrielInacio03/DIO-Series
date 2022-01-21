@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using DIO.Series.Interface;
 
 namespace DIO.Series.Classes
@@ -9,32 +10,32 @@ namespace DIO.Series.Classes
         List<Serie> series = new List<Serie>();
         public void Atualizar(int id, Serie entidade)
         {
-            throw new NotImplementedException();
+            series[id] = entidade;
         }
 
         public void Excluir(int id)
         {
-            throw new NotImplementedException();
+            series[id].excluir();
         }
 
         public void Insere(Serie entidade)
         {
-            throw new NotImplementedException();
+            series.Add(entidade);
         }
 
         public List<Serie> Lista()
         {
-            throw new NotImplementedException();
+            return series;
         }
 
         public int ProximoId()
         {
-            throw new NotImplementedException();
+            return series.Count();
         }
 
         public Serie RetornaPorId(int id)
         {
-            throw new NotImplementedException();
+            return series[id];
         }
     }
 }
